@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ynd-task
+  jpa:
+    open-in-view: false
+  cache:
+    caffeine:
+      spec: maximumSize=500,expireAfterWrite=5m
+
+tor:
+  check:
+    url: https://check.torproject.org
+
